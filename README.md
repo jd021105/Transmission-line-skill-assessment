@@ -1,5 +1,15 @@
 🌌 Real-World Applications of TM and TE Waves Between Parallel Plates used in VOYAGER 1
 
+Voyager 1 has been exploring our solar system since 1977. The probe is now in interstellar space, the region outside the heliopause, or the bubble of energetic particles and magnetic fields from the Sun. Voyager 1 was launched after Voyager 2, but because of a faster route it exited the asteroid belt earlier than its twin, and it overtook Voyager 2 on Dec. 15, 1977.
+
+Voyager 1 discovered a thin ring around Jupiter and two new Jovian moons: Thebe and Metis.
+
+At Saturn, Voyager 1 found five new moons and a new ring called the G-ring.
+
+Voyager 1 was the first spacecraft to cross the heliosphere, the boundary where the influences from outside our solar system are stronger than those from our Sun.
+
+Voyager 1 is the first human-made object to venture into interstellar space.
+
 ![1-Voyager_2-copy](https://github.com/user-attachments/assets/9f978770-6a2c-48a5-ad21-7a0eca9d4bc1)
 
 1. Microwave Waveguides in Radar & Communication Systems
@@ -19,6 +29,155 @@ These waveguides carry signals in systems like space-borne radar antennas, inclu
 The cutoff frequency for TE modes between parallel plates:
 
 2. Particle Accelerators (CERN, SLAC)
+
+
+🛰️ MODULE A – FUNDAMENTAL EQUATIONS SCANNED
+
+Subject: Two infinite parallel conducting plates separated by a distance d, wave propagating in the z direction.
+
+📘 TE (Transverse Electric) Waves
+
+ ![image](https://github.com/user-attachments/assets/218d6e03-1b3d-4cba-a5d2-27e266984fdc)
+
+Dominant mode: TE₁
+
+Cutoff frequency:
+
+![image](https://github.com/user-attachments/assets/3cdac6fa-d5de-49ac-9430-c203fe17d9cd)
+
+Electric field between plates:
+
+![image](https://github.com/user-attachments/assets/f3576c77-81b4-4ee7-803c-eff008663b39)
+
+ 
+📘 TM (Transverse Magnetic) Waves
+![image](https://github.com/user-attachments/assets/bef85377-4c5f-4781-a7e6-26aac738803d)
+
+Dominant mode: TM₁
+
+Cutoff frequency:
+![image](https://github.com/user-attachments/assets/e9115de0-f660-49fc-8730-b1161f849677)
+
+Magnetic field:
+
+![image](https://github.com/user-attachments/assets/ce341b3d-f283-4af7-b28b-c046a95d8839)
+
+ 
+🌍 VOYAGER-EM APPLICATION MODULES
+
+
+🛰️ MODULE B1: Microwave Heating (TM₁ Mode)
+
+Location: Domestic Food Processing Chamber
+
+Observed EM Field: TM₁₀ dominant in parallel metal walls of microwave oven.
+
+🧪 Scientific Explanation:
+
+TM₁ waves generate strong longitudinal E-fields → couples energy to dielectric (water in food).
+
+Efficient for uniform volumetric heating.
+
+🔬 Application Snapshot:
+
+Frequency: 2.45 GHz (Industrial microwave standard)
+
+Plate separation d ≈ 6.1 cm (resonant cavity tuned to TM₁₀)
+
+Enhanced E-fields excite dipolar molecules → vibration → heat
+
+
+🛰️ MODULE B2: Rectangular Waveguide Communications (TE₁₀ Mode)
+
+Location: Ground Radar Transmitter Array
+
+🧪 Scientific Explanation:
+
+TE₁₀ wave (dominant mode) in rectangular waveguide acts like parallel plate with boundary in one direction.
+
+E-field transverse to direction of propagation.
+
+🔬 Application Snapshot:
+
+Used in X-band radar (8–12 GHz)
+
+Plate height d set so:
+
+![image](https://github.com/user-attachments/assets/d34b0b00-329c-4fd4-8bd5-5622dd733cb7)
+
+ 
+No E_z → stable, low-loss transmission over long paths
+
+📡 Key Use Case:
+
+Weather radar, aircraft surveillance, early warning systems
+
+
+🛰️ MODULE B3: Stripline PCBs (Quasi-TEM)
+
+Location: 5G Base Station Hardware Node
+
+🧪 Scientific Explanation:
+
+Signals between flat metal strips inside PCB layers are combinations of TE and TM → quasi-TEM.
+
+Controlled by permittivity and geometry of PCB dielectric.
+
+🔬 Application Snapshot:
+
+Impedance:
+
+![image](https://github.com/user-attachments/assets/2030cafd-7d16-4556-8327-5a9d3c4010c7)
+
+Where h is height to ground plane and w is conductor width.
+
+📡 Key Use Case:
+
+High-frequency PCB design (mmWave)
+
+Used in smartphones, satellites, and defense RF modules
+
+
+🛰️ MODULE B4: Optical Dielectric Slab Waveguides (TE & TM)
+
+Location: Silicon Photonics Research Deck
+
+🧪 Scientific Explanation:
+
+Light confined between high-index slab supports TE and TM modes.
+
+Different propagation constants for each due to boundary conditions.
+
+🔬 Application Snapshot:
+
+Effective Index:
+
+![image](https://github.com/user-attachments/assets/2e28e0b5-7903-456a-a69a-f168aab331b9)
+
+ 
+Optical sensors use TM-mode's surface sensitivity for biosensing.
+
+📡 Key Use Case:
+
+On-chip optical routing, lab-on-chip biosensors, photonic computing
+
+
+🛰️ MODULE B5: Plasma Heating (High-Power TE & TM Injection)
+
+Location: International Fusion Reactor Core (ITER Prototype)
+
+🧪 Scientific Explanation:
+
+Waveguides inject high-frequency TE or TM waves to couple RF power into plasma.
+
+E-field aligns with particle motion → efficient cyclotron resonance heating
+
+🔬 Application Snapshot:
+
+TM waves → strong longitudinal fields for electron acceleration
+
+TE modes → stability for ion heating
+
 
 ⚛️ Application:
 
