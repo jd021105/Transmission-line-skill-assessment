@@ -1,4 +1,4 @@
-**🌌 Real-World Applications of TM and TE Waves Between Parallel Plates used in VOYAGER 1**
+# 🌌 Real-World Applications of TM and TE Waves Between Parallel Plates used in VOYAGER 1 #
 
 About **voyager 1**
 
@@ -32,7 +32,7 @@ These waveguides carry signals in systems like space-borne radar antennas, inclu
 
 Subject: Two infinite parallel conducting plates separated by a distance d, wave propagating in the z direction.
 
-**📘 TE (Transverse Electric) Waves**
+## **📘 TE (Transverse Electric) Waves** ##
 
  ![image](https://github.com/user-attachments/assets/218d6e03-1b3d-4cba-a5d2-27e266984fdc)
 
@@ -47,7 +47,8 @@ Electric field between plates:
 ![image](https://github.com/user-attachments/assets/f3576c77-81b4-4ee7-803c-eff008663b39)
 
  
-**📘 TM (Transverse Magnetic) Waves**
+## **📘 TM (Transverse Magnetic) Waves** ##
+
 ![image](https://github.com/user-attachments/assets/bef85377-4c5f-4781-a7e6-26aac738803d)
 
 Dominant mode: TM₁
@@ -67,10 +68,10 @@ TM and TE waves between parallel plates
 
 
 
-🌍 VOYAGER-EM APPLICATION MODULES
+## 🌍 VOYAGER-EM APPLICATION MODULES ##
 
 
-**🛰️ MODULE B1: Microwave Heating (TM₁ Mode)**
+### **🛰️ MODULE B1: Microwave Heating (TM₁ Mode)** ###
 
 Location: Domestic Food Processing Chamber
 
@@ -91,7 +92,7 @@ Plate separation d ≈ 6.1 cm (resonant cavity tuned to TM₁₀)
 Enhanced E-fields excite dipolar molecules → vibration → heat
 
 
-**🛰️ MODULE B2: Rectangular Waveguide Communications (TE₁₀ Mode)**
+### **🛰️ MODULE B2: Rectangular Waveguide Communications (TE₁₀ Mode)** ###
 
 Location: Ground Radar Transmitter Array
 
@@ -117,7 +118,7 @@ No E_z → stable, low-loss transmission over long paths
 Weather radar, aircraft surveillance, early warning systems
 
 
-**🛰️ MODULE B3: Stripline PCBs (Quasi-TEM)**
+### **🛰️ MODULE B3: Stripline PCBs (Quasi-TEM)** ###
 
 Location: 5G Base Station Hardware Node
 
@@ -142,7 +143,7 @@ High-frequency PCB design (mmWave)
 Used in smartphones, satellites, and defense RF modules
 
 
-**🛰️ MODULE B4: Optical Dielectric Slab Waveguides (TE & TM)**
+### **🛰️ MODULE B4: Optical Dielectric Slab Waveguides (TE & TM)** ###
 
 Location: Silicon Photonics Research Deck
 
@@ -166,7 +167,7 @@ Optical sensors use TM-mode's surface sensitivity for biosensing.
 On-chip optical routing, lab-on-chip biosensors, photonic computing
 
 
-**🛰️ MODULE B5: Plasma Heating (High-Power TE & TM Injection)**
+### **🛰️ MODULE B5: Plasma Heating (High-Power TE & TM Injection)** ###
 
 Location: International Fusion Reactor Core (ITER Prototype)
 
@@ -183,7 +184,7 @@ TM waves → strong longitudinal fields for electron acceleration
 TE modes → stability for ion heating
 
 
-**⚛️ Application:**
+## **⚛️ Application:** ##
 
 TM modes are used in accelerating cavities where electric fields aligned along the beam axis accelerate particles.This is essential for large-scale accelerators like CERN’s LHC and SLAC.
 
@@ -197,13 +198,13 @@ Parallel plate approximations are used in early-stage design before transitionin
 Metamaterials and Cloaking Devices
 
 
- Deep Space Probes – Voyager 1 Communications
+ **Deep Space Probes – Voyager 1 Communications**
 
 🚀 Application:
 
 Though Voyager 1 doesn’t carry open parallel plate waveguides, its high-gain antenna and transmitter waveguides use rectangular or ridged waveguides—which are modeled as combinations of TE/TM between parallel plates.
 
-Role of TE/TM modes:
+**Role of TE/TM modes:**
 
 TE₁₀ mode is dominant in Voyager’s X-band waveguide (~8.4 GHz uplink, ~7.2 GHz downlink).
 
@@ -220,7 +221,7 @@ The design is modeled after parallel plate systems to simplify and optimize EM s
 ![images](https://github.com/user-attachments/assets/020b8710-5224-48dd-aa12-8d67123cbf49)
 
 
-**MODE USED IN VOYAGER 1**
+## **MODE USED IN VOYAGER 1** ##
 
 | Application                      | Mode Used | Real-World Example                                | Frequency Band     |
 | -------------------------------- | --------- | ------------------------------------------------- | ------------------ |
@@ -281,7 +282,7 @@ Power-combining and splitting devices (like hybrid tees)
 
 
 
-**🔬 Current Research and Evolution**
+## **🔬 Current Research and Evolution** ##
 
 3D-printed parallel plate waveguides for rapid prototyping in aerospace systems.
 
